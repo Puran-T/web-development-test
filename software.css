@@ -3,3 +3,8 @@ h1 {
     font-weight: bolder;
     font-size: x-large;
 }
+p {
+    color:rgb(229, 200, 14);
+    border:rgb(212, 55, 37);
+    font-style: oblique;
+}
