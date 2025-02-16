@@ -29,3 +29,7 @@ main {
     color: rgb(234, 231, 231);
     grid-area: main;
 }
+aside {
+    background-color: rgb(144, 238, 144);
+    grid-area: aside;
+}
