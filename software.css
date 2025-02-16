@@ -8,3 +8,8 @@ p {
     border:rgb(212, 55, 37);
     font-style: oblique;
 }
+li {
+    color:rgb(38, 73, 73);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
