@@ -1,5 +1,5 @@
 body {
-    display: table-row-group;
+    display: grid;
     grid-template-columns: 20% 70% 10%;
     grid-template-rows: auto;
     grid-template-areas:
