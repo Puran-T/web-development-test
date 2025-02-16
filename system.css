@@ -24,4 +24,8 @@ header {
     color: rgb(244, 239, 239);
     padding: 20px;
     grid-area: header;
-    }
+}
+nav {
+    background-color: rgb(239, 239, 13);
+    grid-area: nav;
+}
