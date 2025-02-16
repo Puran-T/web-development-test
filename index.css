@@ -10,3 +10,10 @@ p {
     font:italic;
     padding: 20px; 
  }
+ li {
+    color: rgb(3, 5, 3);
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
