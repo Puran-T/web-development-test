@@ -31,4 +31,14 @@ footer {
     background-color: rgb(143, 18, 138);
     color: rgb(177, 173, 173);
     grid-area: footer;
-    }
+}
+body {
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer"
+    ;
+}
