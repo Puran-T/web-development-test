@@ -13,3 +13,9 @@ li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
+header {
+    background-color: rgb(44, 44, 215);
+    color: rgb(244, 239, 239);
+    padding: 20px;
+    grid-area: header;
+}
