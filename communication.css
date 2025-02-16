@@ -8,3 +8,9 @@ body {
     "footer footer footer"
     ;
 }
+Header {
+    background-color: rgb(41, 41, 236);
+    color: rgb(200, 202, 203);
+    padding: 20px;
+    grid-area: header;
+}
