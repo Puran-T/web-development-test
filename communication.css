@@ -22,4 +22,13 @@ main {
     background-color: rgb(5, 5, 25);
     color: rgb(234, 231, 231);
     grid-area: main;
-}  
+}
+aside {
+    background-color: rgb(144, 238, 144);
+    grid-area: aside;
+}
+footer {
+    background-color: rgb(143, 18, 138);
+    color: rgb(177, 173, 173);
+    grid-area: footer;
+}
