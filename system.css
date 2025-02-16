@@ -13,3 +13,9 @@ p {
     font-family: 'Times New Roman', Times, serif;
     padding: 20px;
 }
+li {
+    color:rgb(44, 185, 232);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    padding: 5px;
+}
