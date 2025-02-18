@@ -43,11 +43,12 @@ footer {
 }
 body {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 80% 20%;
     grid-template-rows: auto;
     grid-template-areas:
-    "header header header"
-    "nav main aside"
-    "footer footer footer"
+    "header header"
+    "nav nav"
+    "main aside"
+    "footer footer"
     ;
 }
