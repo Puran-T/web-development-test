@@ -62,3 +62,6 @@ nav {
 .navbar li{
     float: left;
 }
+.third {
+    background-color: rgb(25, 39, 128);
+}
