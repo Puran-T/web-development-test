@@ -65,3 +65,13 @@ nav {
 .one{
     background-color: rgb(25, 39, 128);
 }
+h2 {
+    color: rgb(238, 243, 247);
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.dam {
+    text-align: center;
+}
