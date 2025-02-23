@@ -66,3 +66,10 @@ nav {
 .fourth {
     background-color: rgb(25, 39, 128); 
 }
+.problem {
+    color: rgb(237, 240, 243);
+    font-family: fantasy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: lighter;
+}
