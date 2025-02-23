@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header"
+    "main"
+    "aside"
+    "footer";
+}
+nav {
+    display: block;
+    position: fixed;
+    top: 7px;
+    left: 65%;
+    width: 33%;
+    height: 100vh;
+}
+
+header a{
+    color: #f7eded;
+}

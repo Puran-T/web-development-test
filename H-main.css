@@ -1,0 +1,65 @@
+h1 {
+    color:rgb(208, 206, 221);
+    border-bottom:underline;
+    text-shadow: 1px 4px 6px rgb(168, 248, 49);
+    font-weight: bolder;
+    text-align: center;
+}
+p {
+    font-family: fantasy;
+    border: 1px solid;
+    font:italic;
+    padding: 20px; 
+ }
+ li {
+    color: rgb(233, 235, 233);
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+header {
+    background-color: rgb(44, 44, 215);
+    color: rgb(244, 239, 239);
+    padding: 20px;
+    grid-area: header;
+}
+main {
+    background-color: rgb(9, 9, 70);
+    color: rgb(234, 231, 231);
+    grid-area: main;
+}  
+aside {
+    background-color: rgb(24, 16, 86);
+    grid-area: aside;
+    color: rgb(231, 243, 243);
+}
+footer {
+    background-color: rgb(14, 34, 95);
+    color: rgb(255, 253, 253);
+    grid-area: footer;
+}
+nav {
+    background-color: rgb(60, 81, 213);
+    grid-area: nav;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(234, 228, 228);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(25, 39, 128);   
+}
+.navbar li{
+    float: left;
+}
+
