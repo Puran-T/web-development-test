@@ -58,7 +58,7 @@ nav {
     text-align: center;
 }
 .navbar a:hover{
-    background-color: rgb(25, 39, 128);   
+    background-color: rgb(25, 39, 128); 
 }
 .navbar li{
     float: left;
