@@ -8,6 +8,9 @@ body {
     "aside"
     "footer";
 }
+header a{
+    color: #f7eded;
+}
 nav {
     display: block;
     position: fixed;
@@ -15,8 +18,4 @@ nav {
     left: 65%;
     width: 33%;
     height: 100vh;
-}
-
-header a{
-    color: #f7eded;
 }
