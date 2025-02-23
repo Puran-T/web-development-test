@@ -4,18 +4,11 @@ body {
     grid-template-rows: auto;
     grid-template-areas:
     "header"
+    "nav"
     "main"
     "aside"
     "footer";
 }
 header a{
     color: #f7eded;
-}
-nav {
-    display: block;
-    position: fixed;
-    top: 7px;
-    left: 65%;
-    width: 33%;
-    height: 100vh;
 }
