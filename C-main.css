@@ -66,3 +66,14 @@ nav {
 .second{
     background-color: rgb(25, 39, 128);
 }
+form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    row-gap: 0.5em;
+    width: 400px;
+    background-color: rgb(2, 15, 33);
+}
+input[type="submit"] {
+    grid-column: 2;
+}
