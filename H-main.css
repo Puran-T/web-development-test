@@ -40,12 +40,6 @@ nav {
     padding: 10px;
     text-align: center;
 }
-aside {
-    background-color: rgb(24, 16, 86);
-    grid-area: aside;
-    color: rgb(231, 243, 243);
-    padding: 10px;
-}
 footer {
     background-color: rgb(14, 34, 95);
     color: rgb(255, 253, 253);
