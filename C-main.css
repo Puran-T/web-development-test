@@ -25,6 +25,9 @@ header {
     grid-area: header;
 }
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(9, 9, 70);
     color: rgb(234, 231, 231);
     height: 1000px;
@@ -73,7 +76,7 @@ form {
     align-items: center;
     row-gap: 0.5em;
     width: 400px;
-    background-color: rgb(2, 15, 33);
+    background-color: rgb(3, 25, 56);
 }
 input[type="submit"] {
     grid-column: 2;
