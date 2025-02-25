@@ -28,7 +28,6 @@ main {
     color: rgb(234, 231, 231);
     height: 1000px;
     grid-area: main;
-    background-image: image;
 }  
 aside {
     background-color: rgb(24, 16, 86);
