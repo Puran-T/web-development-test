@@ -4,17 +4,17 @@
     body {
         grid-template-columns: 100%;
         grid-template-areas:
-            "header"
-            "main"
-            "nav"
-            "aside"
-            "footer";
+        "header"
+        "main"
+        "nav"
+        "footer";
     }
 
 
     nav {
         display: none;
         background-color: rgb(3, 32, 176);
+        color: rgb(223, 228, 232);
         position: fixed;
         top: 0;
         left: 50%;
