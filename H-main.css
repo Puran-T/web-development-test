@@ -11,7 +11,6 @@ h1 {
 }
 p {
     font-family: fantasy;
-    border: 1px solid;
     font:italic;
     padding: 20px; 
  }
@@ -30,7 +29,8 @@ header {
 }
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     background-color: rgb(9, 9, 70);
     color: rgb(234, 231, 231);
