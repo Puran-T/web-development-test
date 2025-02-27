@@ -5,6 +5,9 @@ header {
     grid-area: header;
     
 }
+h1 {
+    text-align: center;
+}
 
 header a {
     color: rgb(222, 227, 232);
