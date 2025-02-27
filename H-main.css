@@ -1,39 +1,44 @@
+header a {
+    color: rgb(222, 227, 232);
+    text-decoration: none;
+}
+h1 {
+    color:rgb(208, 206, 221);
+    border-bottom:underline;
+    text-shadow: 1px 4px 6px rgb(168, 248, 49);
+    font-weight: bolder;
+    text-align: center;
+}
+p {
+    font-family: fantasy;
+    border: 1px solid;
+    font:italic;
+    padding: 20px; 
+ }
+li {
+    color: rgb(233, 235, 233);
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
 header {
     background-color: rgb(44, 44, 215);
     color: rgb(244, 239, 239);
     padding: 20px;
     grid-area: header;
-    
-}
-h1 {
-    text-align: center;
-}
-
-header a {
-    color: rgb(222, 227, 232);
-    text-decoration: none;
 }
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(7, 7, 58);
+    background-color: rgb(9, 9, 70);
     color: rgb(234, 231, 231);
-    grid-area: main;
-    padding: 20px;
     height: 1000px;
-}
-nav {
-    background-color: rgb(60, 81, 213);
-    color: rgb(232, 236, 239);
-    grid-area: nav;
-    padding: 10px;
-    text-align: center;
+    grid-area: main;
 }
 footer {
     background-color: rgb(14, 34, 95);
     color: rgb(255, 253, 253);
     grid-area: footer;
-    text-align: center;
-    padding: 10px;
 }
