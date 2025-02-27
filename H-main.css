@@ -46,3 +46,6 @@ nav{
     background-color: rgb(60, 81, 213);
     grid-area: nav;
 }
+.one{
+    background-color: rgb(25, 39, 128);
+}
