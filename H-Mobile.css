@@ -40,8 +40,6 @@ nav {
 #navI:target ~ header .showNav {
     display: none;
 }
-
-   
 #navI:target ~ header .closeNav {
     display: inline-block;
 }

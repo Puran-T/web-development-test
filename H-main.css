@@ -45,13 +45,11 @@ footer {
 nav{
     background-color: rgb(60, 81, 213);
     grid-area: nav;
+    display: flex;
+    justify-content: space-around;
 }
 .one{
     background-color: rgb(25, 39, 128);
-}
-nav {
-    display: flex;
-    justify-content: space-around;
 }
 .navbar ul{
     list-style-type: none;
