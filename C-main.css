@@ -64,9 +64,6 @@ nav {
 .navbar a:hover{
     background-color: rgb(25, 39, 128);   
 }
-.navbar li{
-    float: left;
-}
 .second{
     background-color: rgb(25, 39, 128);
 }
