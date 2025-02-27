@@ -1,60 +1,47 @@
+ body {
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "header"
+    "main"
+    "nav"
+    "footer";
+}
 
-@media (max-width: 800px) {
-
-    body {
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "header"
-        "main"
-        "nav"
-        "footer";
-    }
-
-
-    nav {
-        display: none;
-        background-color: rgb(3, 32, 176);
-        color: rgb(223, 228, 232);
-        position: fixed;
-        top: 0;
-        left: 50%;
-        width: 50%;
-        height: 100vh;
-        padding: 20px;
-    }
-
-   
-    #navI:target {
-        display: block;
-    }
-
-    
-    .showNav {
-        font-size: 2em;
-        text-decoration: none;
-        color: rgb(235, 235, 232);
-        display: inline-block;
-        cursor: pointer;
-        padding: 10px;
-    }
-
-    
-    .closeNav {
-        display: none;
-        font-size: 2em;
-        text-decoration: none;
-        color: rgb(227, 217, 217);
-        padding: 10px;
-        cursor: pointer;
-    }
-
-    
-    #navI:target ~ header .showNav {
-        display: none;
-    }
+nav {
+    display: none;
+    background-color: rgb(3, 32, 176);
+    color: rgb(223, 228, 232);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+}
+#navI:target {
+    display: block;
+}
+.showNav {
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(235, 235, 232);
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+}
+.closeNav {
+    display: none;
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(227, 217, 217);
+    padding: 10px;
+    cursor: pointer;
+}
+#navI:target ~ header .showNav {
+    display: none;
+}
 
    
-    #navI:target ~ header .closeNav {
-        display: inline-block;
-    }
+#navI:target ~ header .closeNav {
+    display: inline-block;
 }
