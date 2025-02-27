@@ -45,25 +45,7 @@ nav {
 #navI:target ~ header .closeNav {
     display: inline-block;
 }
-nav {
-    display: flex;
-    justify-content: space-around;
-}
-.navbar ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-.navbar a{
-    color: rgb(234, 228, 228);
-    text-decoration: none;
-    padding: 15px;
-    text-align: center;
-}
-.navbar a:hover{
-    background-color: rgb(25, 39, 128);   
-}
+
 .navbar li{
     float: center;
     padding: 10px;
