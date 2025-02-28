@@ -24,6 +24,9 @@ header {
     padding: 20px;
     grid-area: header;
 }
+header a {
+    color: rgb(244, 247, 250);
+}
 main {
     background-color: rgb(9, 9, 70);
     color: rgb(234, 231, 231);
