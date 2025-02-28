@@ -1,3 +1,7 @@
+header a {
+    color: rgb(222, 227, 232);
+    text-decoration: none;
+}
 h1 {
     color:rgb(208, 206, 221);
     border-bottom:underline;
@@ -7,11 +11,10 @@ h1 {
 }
 p {
     font-family: fantasy;
-    border: 1px solid;
     font:italic;
     padding: 20px; 
  }
- li {
+li {
     color: rgb(233, 235, 233);
     font-size: larger;
     font-weight: bold;
@@ -24,15 +27,16 @@ header {
     padding: 20px;
     grid-area: header;
 }
-header a {
-    color: rgb(244, 247, 250);
-}
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-color: rgb(9, 9, 70);
     color: rgb(234, 231, 231);
     height: 1000px;
     grid-area: main;
-}  
+}
 aside {
     background-color: rgb(24, 16, 86);
     grid-area: aside;
@@ -43,12 +47,13 @@ footer {
     color: rgb(255, 253, 253);
     grid-area: footer;
 }
-nav {
+nav{
     background-color: rgb(60, 81, 213);
     grid-area: nav;
     display: flex;
     justify-content: space-around;
 }
+
 .navbar ul{
     list-style-type: none;
     padding: 0px;
@@ -62,7 +67,7 @@ nav {
     text-align: center;
 }
 .navbar a:hover{
-    background-color: rgb(25, 39, 128); 
+    background-color: rgb(25, 39, 128);   
 }
 .fifth {
     background-color: rgb(25, 39, 128);  
