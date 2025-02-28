@@ -11,5 +11,5 @@ body {
 }
 
 header a{
-    color: rgb(222, 227, 232);
+    display: none;
 }
