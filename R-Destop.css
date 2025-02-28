@@ -13,3 +13,6 @@ body {
 header a{
     display: none;
 }
+.navbar li{
+    float: left;
+}
