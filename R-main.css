@@ -72,3 +72,16 @@ nav{
 .fifth {
     background-color: rgb(25, 39, 128);  
 }
+nav ul  ul {
+    position: absolute;
+    display: none;
+    background-color:  rgb(25, 39, 128);
+    width: 10%;
+    padding: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+nav > ul > li:hover ul {
+    display: block;
+    opacity: 1;
+}
