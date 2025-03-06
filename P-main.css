@@ -33,7 +33,7 @@ main {
     align-items: center;
     background-color: rgb(9, 9, 70);
     color: rgb(234, 231, 231);
-    height: 1500px;
+    height: auto;
     grid-area: main;
 }
 aside {
