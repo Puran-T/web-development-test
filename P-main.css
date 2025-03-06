@@ -41,6 +41,9 @@ aside {
     grid-area: aside;
     color: rgb(231, 243, 243);
 }
+aside ul li{
+    list-style-type: none;
+}
 footer {
     background-color: rgb(14, 34, 95);
     color: rgb(255, 253, 253);
