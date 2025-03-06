@@ -1,35 +1,35 @@
 
 :root {
-    --background-color:rgb(44, 44, 215);
+    --background-color: rgb(9, 9, 70);
     --color: rgb(233, 235, 233);
     --font-family: fantasy;
 }
 
 header a {
-    color: rgb(222, 227, 232);
+    color: var(--color);
     text-decoration: none;
 }
 h1 {
-    color:rgb(208, 206, 221);
+    color: var(--color);
     border-bottom:underline;
     text-shadow: 1px 4px 6px rgb(168, 248, 49);
     font-weight: bolder;
     text-align: center;
 }
 p {
-    font-family: fantasy;
+    font-family: var(--font-family);
     padding: 20px; 
  }
 li {
-    color: rgb(233, 235, 233);
+    color: var(--color);
     font-size: larger;
     font-weight: bold;
     font-style: oblique;
     
 }
 header {
-    background-color: rgb(44, 44, 215);
-    color: rgb(244, 239, 239);
+    background-color: var(--background-color);
+    color: var(--color);
     padding: 20px;
     grid-area: header;
 }
@@ -38,8 +38,8 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgb(9, 9, 70);
-    color: rgb(234, 231, 231);
+    background-color: var(--background-color);
+    color: var(--color);
     height: auto;
     grid-area: main;
 }
