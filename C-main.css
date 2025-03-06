@@ -34,7 +34,7 @@ main {
     align-items: center;
     background-color: var(--background-color);
     color: var(--color);
-    height: auto;
+    height: 1000px;
     grid-area: main;
 }  
 aside {
