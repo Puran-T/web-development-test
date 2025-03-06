@@ -43,6 +43,7 @@ aside {
 }
 aside ul li{
     list-style-type: none;
+    text-decoration: none;
 }
 footer {
     background-color: rgb(14, 34, 95);
