@@ -37,6 +37,16 @@ main {
     height: 1000px;
     grid-area: main;
 }
+main li{
+    list-style-type: none;
+    margin-top: 5px;
+}
+main li a{
+    color:aliceblue;
+}
+main li a:hover{
+    color: rgb(19, 108, 19);
+}
 footer {
     background-color: rgb(14, 34, 95);
     color: rgb(255, 253, 253);
