@@ -48,6 +48,19 @@ aside {
     grid-area: aside;
     color: rgb(231, 243, 243);
 }
+aside ul li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+i {
+    font-size: 3em;
+}
+aside ul li a {
+    color: var(--color);
+}
+aside ul li a:hover{
+    color: rgb(11, 102, 11);
+}
 footer {
     background-color: rgb(14, 34, 95);
     color: rgb(255, 253, 253);
