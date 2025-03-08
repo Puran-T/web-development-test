@@ -90,7 +90,8 @@ form {
     grid-template-columns: 50% 50%;
     align-items: center;
     row-gap: 0.5em;
-    width: 400px;
+    width: 700px;
+    height: 500px;
     background-color: rgb(3, 25, 56);
 }
 input[type="submit"] {
