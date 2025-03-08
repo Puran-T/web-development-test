@@ -6,6 +6,9 @@
     "nav"
     "footer";
 }
+header{
+    background-color: rgb(13, 13, 151);
+}
 
 nav {
     display: none;

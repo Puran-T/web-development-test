@@ -28,7 +28,7 @@ li {
     
 }
 header {
-    background-color:  rgb(13, 13, 151);
+    background-color:  var(--background-color);
     color: var(--color);
     padding: 20px;
     grid-area: header;
