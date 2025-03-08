@@ -15,3 +15,9 @@ header a{
 .navbar li{
     float: left;
 }
+nav ul li ul li {
+    margin-top: 10px;
+}
+nav ul li ul li a:hover{
+    color: rgb(228, 218, 18);
+}
