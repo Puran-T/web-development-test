@@ -1,7 +1,7 @@
 :root {
     --background-color: rgb(9, 9, 70);
     --color: rgb(233, 235, 233);
-    --font-family: fantasy;
+    --font-family: Sans-Serif;
 }
 header a {
     color: var(--color);
