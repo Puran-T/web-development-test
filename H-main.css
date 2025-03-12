@@ -5,6 +5,7 @@
 :root {
     --background-color: rgb(9, 9, 70);
     --color: rgb(233, 235, 233);
+    --color2: rgb(2, 2, 2);
     --font-family: Sans-Serif;
 }
 
@@ -51,9 +52,9 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: linear-gradient(45deg, rgb(19, 39, 170), rgb(144, 0, 255), pink, yellow);
+    background: linear-gradient(45deg, rgb(19, 39, 170), rgb(144, 0, 255), rgb(235, 55, 85), rgb(19, 39, 170));
     background-size: 300% 300%;
-    color: var(--color);
+    color: var(--color2);
     height: 1000px;
     grid-area: main;
     animation: backgroundAnimation 10s infinite alternate ease-in-out;
