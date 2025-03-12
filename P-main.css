@@ -1,4 +1,7 @@
-
+*{
+    margin: 0%;
+    padding: 0%;
+}
 :root {
     --background-color: rgb(9, 9, 70);
     --color: rgb(233, 235, 233);
