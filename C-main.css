@@ -32,14 +32,27 @@ header {
     padding: 20px;
     grid-area: header;
 }
+@keyframes backgroundAnimation {
+    0% { 
+        background-position: 0% 50%;
+    }
+    50% { 
+        background-position: 100% 50%;
+    }
+    100% { 
+        background-position: 0% 50%;
+    }
+}
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--background-color);
+    background: linear-gradient(45deg, rgb(19, 39, 170), rgb(144, 0, 255), rgb(223, 213, 21), yellow);
+    background-size: 300% 300%;
     color: var(--color);
     height: 1000px;
     grid-area: main;
+    animation: backgroundAnimation 10s infinite alternate ease-in-out;
 }  
 aside {
     background-color: rgb(24, 16, 86);
