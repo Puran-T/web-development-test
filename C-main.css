@@ -12,7 +12,6 @@ h1 {
 p {
     font-family: var(--font-family);
     border: 1px solid;
-    font:italic;
     padding: 20px; 
  }
  li {

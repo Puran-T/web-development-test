@@ -17,7 +17,6 @@ h1 {
 }
 p {
     font-family: var(--font-family);
-    font:italic;
     padding: 20px; 
  }
 li {
