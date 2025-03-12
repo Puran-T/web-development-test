@@ -63,7 +63,7 @@ main {
 aside {
     background-color: var(--background-color);
     grid-area: aside;
-    color: rgb(231, 243, 243);
+    color: var(--color);
 }
 aside ul li{
     list-style-type: none;
@@ -81,7 +81,7 @@ aside ul li a:hover{
 }
 footer {
     background-color: rgb(14, 34, 95);
-    color: rgb(255, 253, 253);
+    color: var(--color);
     grid-area: footer;
 }
 nav{
