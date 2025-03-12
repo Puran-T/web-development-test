@@ -10,6 +10,9 @@ body {
 header a{
     display: none;
 }
+nav {
+    height: 27px;
+}
 .navbar li{
     float: left;
 }
