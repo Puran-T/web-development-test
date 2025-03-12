@@ -5,6 +5,7 @@
 :root {
     --background-color: rgb(9, 9, 70);
     --color: rgb(233, 235, 233);
+    --color2: rgb(5, 5, 5);
     --font-family: fantasy;
 }
 h1 {
@@ -57,11 +58,11 @@ aside ul li a {
     color: var(--color);
 }
 aside ul li a:hover{
-    color: rgb(9, 116, 84);
+    color: var(--color2);
 }
 footer {
-    background-color: rgb(14, 34, 95);
-    color: rgb(255, 253, 253);
+    background-color: var(--background-color);
+    color: var(--color);
     grid-area: footer;
 }
 nav {
