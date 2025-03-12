@@ -5,6 +5,7 @@
 :root {
     --background-color: rgb(9, 9, 70);
     --color: rgb(233, 235, 233);
+    --color2: rgb(5, 5, 5);
     --font-family: Sans-Serif;
 }
 header a {
@@ -60,7 +61,7 @@ i {
     font-size: 2em;
 }
 i:hover{
-    color: rgb(21, 116, 21);
+    color: var(--color2);
 }
 footer {
     background-color: rgb(14, 34, 95);
@@ -88,7 +89,7 @@ nav{
     text-align: center;
 }
 .navbar a:hover{
-    background-color: rgb(25, 39, 128);   
+    background-color: var(--background-color);   
 }
 .fifth {
     background-color: rgb(25, 39, 128);  
