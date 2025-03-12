@@ -54,7 +54,7 @@ main {
     align-items: center;
     background: linear-gradient(45deg, rgb(19, 39, 170), rgb(144, 0, 255), rgb(223, 213, 21), yellow);
     background-size: 300% 300%;
-    color: var(--color);
+    color: var(--color2);
     height: auto;
     grid-area: main;
     animation: backgroundAnimation 10s infinite alternate ease-in-out;
