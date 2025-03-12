@@ -19,7 +19,7 @@ p {
     color: var(--color);
     font-size: larger;
     font-weight: bold;
-    font-style: oblique;
+    font-style: var(--font-family);
     
 }
 header {
