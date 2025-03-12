@@ -5,6 +5,7 @@
 :root {
     --background-color: rgb(9, 9, 70);
     --color: rgb(233, 235, 233);
+    --color1: rgb(5, 5, 5);
     --color2: rgb(241, 241, 8);
     --font-family: Sans-Serif;
 }
@@ -55,7 +56,7 @@ main {
     align-items: center;
     background: linear-gradient(45deg, rgb(19, 39, 170), rgb(144, 0, 255), rgb(223, 213, 21), yellow);
     background-size: 300% 300%;
-    color: var(--color2);
+    color: var(--color1);
     height: auto;
     grid-area: main;
     animation: backgroundAnimation 10s infinite alternate ease-in-out;
