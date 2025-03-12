@@ -67,7 +67,7 @@ main li a{
     color:aliceblue;
 }
 main li a:hover{
-    color: rgb(19, 108, 19);
+    color: var(--color2);
 }
 footer {
     background-color: rgb(14, 34, 95);
