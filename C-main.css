@@ -98,7 +98,7 @@ nav {
     text-align: center;
 }
 .navbar a:hover{
-    background-color: rgb(25, 39, 128);   
+    background-color: var(--background-color);   
 }
 .second{
     background-color: rgb(25, 39, 128);
