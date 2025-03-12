@@ -48,6 +48,7 @@ aside {
 aside ul li{
     list-style-type: none;
     margin-top: 15px;
+    margin-left: 15px;
 }
 i {
     font-size: 2em;
