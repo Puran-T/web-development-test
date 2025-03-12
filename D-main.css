@@ -77,7 +77,7 @@ aside ul li a {
     color: var(--color);
 }
 aside ul li a:hover{
-    color: rgb(11, 102, 11);
+    color: var(--color2);
 }
 footer {
     background-color: rgb(14, 34, 95);
