@@ -72,6 +72,7 @@ footer {
 nav{
     background-color: rgb(60, 81, 213);
     grid-area: nav;
+    height: 27px;
     display: flex;
     justify-content: space-around;
 }
