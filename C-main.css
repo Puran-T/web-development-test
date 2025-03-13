@@ -17,7 +17,6 @@ h1 {
 }
 p {
     font-family: var(--font-family);
-    border: 1px solid;
     padding: 20px; 
  }
  li {
@@ -115,7 +114,7 @@ form {
     height: 500px;
     background-color: rgba(7, 1, 31, 0.226);
 }
-main div{
+main div p {
     width:300px;
     font-family: var(--font-family2);
     padding-right: 80px;
