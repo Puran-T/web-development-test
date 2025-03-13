@@ -108,9 +108,11 @@ form {
     grid-template-columns: 50% 50%;
     align-items: center;
     row-gap: 0.5em;
+    margin-left: 25%;
+    padding: 5%;
     width: 700px;
     height: 500px;
-    background-color: rgb(7, 1, 31);
+    background-color: rgba(7, 1, 31, 0.226);
 }
 input[type="submit"] {
     grid-column: 2;
