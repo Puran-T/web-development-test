@@ -119,6 +119,12 @@ main div p {
     font-family: var(--font-family2);
     padding-right: 80px;
 }
+main div button{
+    border: solid;
+}
+main div button:hover{
+    background-color: var(--color2);
+}
 input[type="submit"] {
     grid-column: 2;
 }
