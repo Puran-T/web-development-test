@@ -7,6 +7,7 @@
     --color: rgb(233, 235, 233);
     --color2: rgb(241, 241, 8);
     --font-family: fantasy;
+    --font-family2: Sans-Serif;
 }
 h1 {
     color:var(--color);
@@ -108,11 +109,16 @@ form {
     grid-template-columns: 50% 50%;
     align-items: center;
     row-gap: 0.5em;
-    margin-left: 25%;
+    margin-left: 0%;
     padding: 5%;
     width: 700px;
     height: 500px;
     background-color: rgba(7, 1, 31, 0.226);
+}
+main div{
+    width:300px;
+    font-family: var(--font-family2);
+    padding-right: 80px;
 }
 input[type="submit"] {
     grid-column: 2;
