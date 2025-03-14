@@ -59,14 +59,14 @@ main {
     grid-area: main;
     animation: backgroundAnimation 10s infinite alternate ease-in-out;
 }
-main li{
+main p{
     list-style-type: none;
     margin-top: 5px;
 }
-main li a{
+main  a{
     color:aliceblue;
 }
-main li a:hover{
+main a:hover{
     color: var(--color2);
 }
 footer {
