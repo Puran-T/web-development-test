@@ -23,7 +23,6 @@ p {
     color: var(--color);
     font-size: larger;
     font-weight: bold;
-    font-style: var(--font-family);
     
 }
 header {
