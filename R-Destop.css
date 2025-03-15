@@ -15,6 +15,10 @@ header a{
 .navbar li{
     float: left;
 }
+main img{
+    height: 250px;
+
+}
 nav ul li ul li {
     margin-top: 15px;
 }
