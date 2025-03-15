@@ -58,6 +58,14 @@ main {
     grid-area: main;
     animation: backgroundAnimation 10s infinite alternate ease-in-out;
 }
+main a {
+    text-decoration: none;
+    color: rgb(231, 236, 240);
+    margin-top: 40px;
+}
+main a:hover{
+    color: var(--background-color);
+}
 aside {
     background-color: var(--background-color);
     grid-area: aside;

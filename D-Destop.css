@@ -11,6 +11,11 @@ body {
 header a{
     display: none;
 }
+.video1 {
+    height: 417px;
+    width: 742px;
+    margin-top: 120px;
+}
 .navbar li{
     float: left;
 }

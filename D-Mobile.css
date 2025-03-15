@@ -11,6 +11,11 @@ body {
 header{
     background-color: rgb(13, 13, 151);
 }
+.video1 {
+    height: 159px;
+    width: 281px;
+    margin-top: 120px;
+}
 nav {
     display: none;
     background-color: rgb(3, 32, 176);
