@@ -58,6 +58,13 @@ main {
     grid-area: main;
     animation: backgroundAnimation 10s infinite alternate ease-in-out;
 }
+main H2{
+    margin-top: 20px;
+}
+main a{
+    color: var(--color);
+    text-decoration: none;
+}
 aside {
     background-color: rgb(24, 16, 86);
     grid-area: aside;
