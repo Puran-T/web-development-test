@@ -65,6 +65,9 @@ main a{
     color: var(--color);
     text-decoration: none;
 }
+main a:hover{
+    color: var(--color2);
+}
 aside {
     background-color: rgb(24, 16, 86);
     grid-area: aside;
